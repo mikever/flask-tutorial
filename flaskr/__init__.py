@@ -1,3 +1,7 @@
+# pylint: disable=import-error
+# pylint: disable=missing-function-docstring
+# pylint: disable=import-outside-toplevel
+# pylint: disable=missing-module-docstring
 import os
 
 from flask import Flask
