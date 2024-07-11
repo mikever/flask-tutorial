@@ -1,5 +1,8 @@
 # pylint: disable=missing-function-docstring
 # pylint: disable=missing-module-docstring
+# pylint: disable=missing-class-docstring
+# pylint: disable=import-error
+# pylint: disable=too-few-public-methods
 
 import sqlite3
 
@@ -20,7 +23,7 @@ def test_get_close_db(app):
 
 
 def test_init_db_command(runner, monkeypatch):
-    class Recorder(object):
+    class Recorder:
         called = False
 
     def fake_init_db():
