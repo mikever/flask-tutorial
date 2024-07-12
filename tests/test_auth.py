@@ -1,5 +1,6 @@
 # pylint: disable=missing-function-docstring
 # pylint: disable=missing-module-docstring
+# pylint: disable=import-error
 
 import pytest
 from flask import g, session
